@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    background-color: #ccc;
+}
+
+
+.caja1{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #488c84;
+    margin: auto;
+    margin-top: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color:#488c84; 
+}
+
+.caja2--p{
+    display: none;
+}
+
+.caja1:hover{
+    .caja2--p{
+        display:inline-block;
+        color: #488c84;
+        margin-top: 55%;
+    }
+    .caja1--p{
+        display: none;
+    }
+}
+
+
+
+
